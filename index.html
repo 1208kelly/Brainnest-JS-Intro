@@ -85,11 +85,42 @@
         // alert( null == undefined ); true - non strict equality check
 
         //condition and consequence
-        let hours = 3
-        if (hours < 13) {
+        let hours = 3; // 0 - 24
+        if (hours < 13) { // 0 - 12
             console.log("Good morning")
-        } else {
+        } else if (hours < 19) { // 13 - 18
             console.log("Good afternoon")
+        } else { // 19 - 24
+            console/log("Good evening")
+        }
+
+        // Switch statement
+        let x; // will be a string
+
+
+        //Functions
+        let hours = 3;
+
+        function myFunction(number) {
+            return numbers + hours + number; // 3 + 3 + 3
+        };
+
+        myFunction(3);
+
+        // Arrow function
+        let double = (n) => n * 2;
+        
+        function double(n) {
+            return n * 2;
+        };
+
+        double(4);
+
+        console.log()
+        let console = {
+            log: n => { // the key log has a value for it's function
+
+            }
         }
     </script>    
 </body>
